@@ -107,7 +107,7 @@ Assignment of week.
 
 3. Setup your vscode ide as you are python developer. Install all important extensions (python linter, language server, snippets bla bla).  
 
-   ![Python Extension](images/PythonExtension.png)
+   ![Python Extension](PythonExtension.png)
      
 4. Learn shortcuts of the vscode. Real developer always avoid to use mouse for almost anything. You will use key combinations (ctrl + f5 for example) to execute and debug.  
 
@@ -169,14 +169,14 @@ Assignment of week.
    `Git` is a popular version control system that allows you to track file changes, collaborate, manage branches, and restore previous versions. For any software project, using version control is important for managing work between team members and maintaining a history of changes made to the codebase over time.
 9. Create a github account.
 
-   ![my github account](images/githubAccount.png)
+   ![my github account](githubAccount.png)
 10. Learn what is Markdown format and why developers like to use. Vscode has support of markdown (fileformat of .md)
 
     Markdown is a simple yet useful markup language for formatting text. It is easy to learn and use, produces clean output, works with many tools, can be extended, and promotes productivity. These benefits make Markdown popular with developers, writers, and content creators.
 
 11. Create week1.md with vscode and write report of this research. You should explain all what you learnt. While writing your report, you can use preview of markdown in vscode. (It will automaticly format your markdown, with that way, you will know that how it will look like)   
     
-    ![Preview](images/preview.png)
+    ![Preview](preview.png)
 
 12. Finally, create a repo that you will send your reports to github and upload your week1.md.  
 
