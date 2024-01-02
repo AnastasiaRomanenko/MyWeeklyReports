@@ -107,15 +107,15 @@ Assignment of week.
 
 3. Setup your vscode ide as you are python developer. Install all important extensions (python linter, language server, snippets bla bla).  
 
-   ![Python Extension](PythonExtension.png)
+   ![Python Extension](images/PythonExtension.png)
      
-4. Learn shortcuts of the vscode. Real developer always avoid to use mouse for almost anything. You will use key combinations (ctrl + f5 for example) to execute and debug.  
+5. Learn shortcuts of the vscode. Real developer always avoid to use mouse for almost anything. You will use key combinations (ctrl + f5 for example) to execute and debug.  
 
    We can explore shortcuts by going to "Code" > "Preferences" > "Keyboard Shortcuts" in the menu bar.
-5. We will everytime use terminal. You have terminal in your mac computer. Learn how to execute your terminal with shortcut. (For example, I am pressing f12 to use my drop-down terminal in anywhere.)
+6. We will everytime use terminal. You have terminal in your mac computer. Learn how to execute your terminal with shortcut. (For example, I am pressing f12 to use my drop-down terminal in anywhere.)
 
    I crearted a shortcut for opening a terminal - `⌘ ⌥ ^ space`.
-6. Learn what is static typed and dynamic typed programming language and why we have this difference. Explain which of one does python use.
+7. Learn what is static typed and dynamic typed programming language and why we have this difference. Explain which of one does python use.
 
    Programming languages are categorized as either `statically typed` or `dynamically typed`. This refers to how the language handles variable types:
 
@@ -126,7 +126,7 @@ Assignment of week.
     The difference between them allows programmers to choose what they need more: safety or flexibility.  
     Statically typed languages promote safety and performance at the cost of flexibility, while dynamically typed languages favor flexibility at the cost of some safety and performance. 
    
-7. Write some dump code with python, with vscode. It can be like declare variables, print them. Read string from the terminal and print to the screen. Generate random number, take input from user, make it int and compare with your random number. If they wouldn't match, mass with the user. And finally run your application from terminal.
+8. Write some dump code with python, with vscode. It can be like declare variables, print them. Read string from the terminal and print to the screen. Generate random number, take input from user, make it int and compare with your random number. If they wouldn't match, mass with the user. And finally run your application from terminal.
 
    My code:
    ```python
@@ -164,20 +164,20 @@ Assignment of week.
    Guess the number again: 3
    You guessed it!
    ```
-8. Briefly learn what is git? and why we need version control system while developing something.
+9. Briefly learn what is git? and why we need version control system while developing something.
 
    `Git` is a popular version control system that allows you to track file changes, collaborate, manage branches, and restore previous versions. For any software project, using version control is important for managing work between team members and maintaining a history of changes made to the codebase over time.
-9. Create a github account.
+10. Create a github account.
 
-   ![my github account](githubAccount.png)
-10. Learn what is Markdown format and why developers like to use. Vscode has support of markdown (fileformat of .md)
+   ![my github account](images/githubAccount.png)
+11. Learn what is Markdown format and why developers like to use. Vscode has support of markdown (fileformat of .md)
 
     Markdown is a simple yet useful markup language for formatting text. It is easy to learn and use, produces clean output, works with many tools, can be extended, and promotes productivity. These benefits make Markdown popular with developers, writers, and content creators.
 
-11. Create week1.md with vscode and write report of this research. You should explain all what you learnt. While writing your report, you can use preview of markdown in vscode. (It will automaticly format your markdown, with that way, you will know that how it will look like)   
+12. Create week1.md with vscode and write report of this research. You should explain all what you learnt. While writing your report, you can use preview of markdown in vscode. (It will automaticly format your markdown, with that way, you will know that how it will look like)   
     
-    ![Preview](preview.png)
+    ![Preview](images/preview.png)
 
-12. Finally, create a repo that you will send your reports to github and upload your week1.md.  
+14. Finally, create a repo that you will send your reports to github and upload your week1.md.  
 
     Done 😃
