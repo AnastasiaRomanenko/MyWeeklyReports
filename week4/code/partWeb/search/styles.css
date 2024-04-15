@@ -1,0 +1,136 @@
+
+body {
+    background-color: rgb(32, 33, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+img[name="Google"] {
+    width: 300px;
+    text-align: center;
+    margin-right: 11px;
+}
+img[name="GoogleImage"] {
+    width: 300px;
+    text-align: center;
+    margin-left: 45px;
+}
+img[name="search"] {
+    position: relative;
+    right: 510px;
+    top: 20px;
+    clip-path: inset(0px 0px 40px 0);
+    height: 60px;
+    width: 20px;
+}
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 30px;
+}
+a {
+    font-family: arial;
+    text-decoration: none; 
+    color: white;
+    margin-right: 20px; 
+    font-size: 13px;
+}
+input[id="Search"] {
+    position: relative;
+    color: white;
+    width: 500px;
+    height: 20px;
+    background-color: rgb(32, 33, 36);
+    border-radius: 50px;
+    border: 1px solid rgb(109, 113, 118);
+    padding: 10px;
+    margin: 20px;
+    margin-right: 0px;
+    text-align: left;
+    text-indent: 35px;
+    font-size: 16px;
+    outline: none; 
+    border: 1px solid rgb(109, 113, 118);
+}
+input[id="SearchImages"] {
+    position: relative;
+    color: white;
+    width: 500px;
+    height: 20px;
+    background-color: rgb(32, 33, 36);
+    border-radius: 50px;
+    border: 1px solid rgb(109, 113, 118);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 85px;
+    text-align: left;
+    text-indent: 35px;
+    font-size: 16px;
+    outline: none; 
+    border: 1px solid rgb(109, 113, 118);
+}
+input[type="text"]:hover {
+    background-color: rgb(49, 53, 58);
+    border: 1px solid rgb(49, 53, 58);
+}
+input[type="submit"] {
+    text-align: center;
+    background-color: rgb(49, 53, 58);
+    border: 1px solid rgb(49, 53, 58);
+    border-radius: 5px;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    margin: 10px 5px 10px 10px;    
+    height: 36px;
+    width: 130px;
+    text-align: center;
+    cursor: pointer; 
+}
+input[type="submit"]:hover {
+    text-align: center;
+    outline: none; 
+    border: 1px solid rgb(109, 113, 118);
+}
+span {
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: -67px;
+    top: -5px;
+    white-space: nowrap
+}
+img[name="image_search"] {
+    position: relative;
+    right: 530px;
+    top: 20px;
+    clip-path: inset(0px 0px 40px 0);
+    text-align: center;
+    height: 60px;
+    width: 20px;
+    position: relative;
+    display: flex;
+}
+img[name="blue_search"] {
+    position: relative;
+    right: 80px;
+    top: 24px;
+    clip-path: inset(0px 0px 50px 0);
+    text-align: center;
+    height: 75px;
+    width: 25px;
+    position: relative;
+    display: flex;
+    filter: sepia(30%) hue-rotate(184deg) saturate(9);
+}
+input[name="blue_search"]:hover {
+    cursor: pointer;
+}

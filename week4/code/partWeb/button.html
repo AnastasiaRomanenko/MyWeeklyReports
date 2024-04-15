@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+    <style>
+        .button {
+            height: 50px;
+            width: 200px; 
+            background-color: rgb(100, 200, 255);
+            color: rgb(0, 70, 105);
+            text-align: center;
+            border: 2px solid rgb(0, 70, 105);
+            border-radius: 10px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:  20px;
+            margin: 0 auto;
+            display: block;
+            cursor: pointer;
+            margin-top: 50px;
+            transition-duration: 1s;
+        }
+        .button:hover {
+            background-color: rgb(255, 110, 200);;
+            color: rgb(105, 0, 70);;
+            border: 2px solid rgb(105, 0, 70);
+        }
+    </style>
+     <script>
+        function hihi() {
+            window.location.assign("https://www.youtube.com/watch?v=AlnHNi0hdO0");
+        }
+    </script>
+</head>
+<body>
+    <button class="button" onclick="hihi()" >I am a button!</button>
+</body>
+</html>

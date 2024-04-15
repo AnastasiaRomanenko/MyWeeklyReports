@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URLs</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Short URL</th>
+                <th>Long URL</th>
+            </tr>
+        </thead>
+        <tbody id="json-data">
+            <!-- JSON data will be displayed here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch JSON data
+        fetch('url.json')
+            .then(response => response.json())
+            .then(data => {
+                // Manipulate DOM to display JSON data
+                const jsonDataTbody = document.getElementById('json-data');
+                let html = '';
+                for (const shortUrl in data) {
+                    if (data.hasOwnProperty(shortUrl)) {
+                        const longUrl = data[shortUrl];
+                        html += `<tr><td>${shortUrl}</td><td>${longUrl}</td></tr>`;
+                    }
+                }
+                jsonDataTbody.innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+</body>
+</html>
