@@ -9,6 +9,7 @@ from io import BytesIO
 import random
 import string
 from PIL import Image, ImageDraw
+from captcha.image import ImageCaptcha
 
 app = Flask(__name__)
 
@@ -77,18 +78,18 @@ def barcode_generator():
 @app.route('/captcha')
 def captcha():
     captcha_text = ''.join(random.choices(string.ascii_letters + string.digits, k=random.randint(5, 10)))
-    img = Image.new('RGB', (200, 50), color = (200, 200, 200))
-    d = ImageDraw.Draw(img)
-    d.text((20,20), captcha_text, fill=(255, 0, 0))
+    image = ImageCaptcha()
 
+    image.generate(captcha_text)
     captcha_storage = BytesIO()
-    img.save(captcha_storage, 'PNG')
+    
+    image.write(captcha_text, captcha_storage, 'PNG')
     captcha_storage.seek(0)
-
     response = make_response(captcha_storage.read())
     response.headers.set('Content-Type', 'image/png')
     response.headers.set('X-Nastia-Captcha-Value', captcha_text)
     return response
+
 
 if __name__ == '__main__':
     app.run(port=3132)
